@@ -5,5 +5,6 @@ NI="${GRAALVM_HOME}/bin/native-image"
         -H:+ReportExceptionStackTraces \
         --report-unsupported-elements-at-runtime \
         --initialize-at-build-time \
+        --allow-incomplete-classpath \ # see project.clj for details
         --enable-https \
         $@
