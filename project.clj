@@ -7,7 +7,7 @@
                  [org.martinklepsch/clj-http-lite "0.4.1"]]
   :main ^:skip-aot cljurl-graalvm-demo.core
   :target-path "target/%s"
-  :plugins [[io.taylorwood/lein-native-image "0.3.0"]]
+  :plugins [[io.taylorwood/lein-native-image "0.3.1"]]
   :native-image {:opts ["--verbose"
                         "--no-fallback"
                         "-Dclojure.compiler.direct-linking=true"
