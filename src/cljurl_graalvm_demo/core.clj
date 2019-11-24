@@ -4,4 +4,5 @@
 
 (defn -main
   [& args]
+  (println (clojure-version))
   (println (http/get "https://www.latacora.com")))
